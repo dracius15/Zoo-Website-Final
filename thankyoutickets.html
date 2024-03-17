@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .thank-you {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            max-width: 400px;
+        }
+
+        .thank-you h2 {
+            color: #333;
+        }
+
+        .thank-you p {
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .return-button {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .return-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you">
+        <h2>Thank You for Purchasing Tickets!</h2>
+        <p>Your order has been successfully processed. Check your email for the tickets</p>
+        <button class="return-button" onclick="returnToHomePage()">Return to Home Page</button>
+    </div>
+
+    <script>
+        function returnToHomePage() {
+            window.location.href = "index.html"; 
+        }
+    </script>
+</body>
+</html>

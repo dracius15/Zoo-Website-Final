@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thank You for Signing Up!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+
+        .thank-you-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <h1>Thank You for Signing Up!</h1>
+        <p>Your registration was successful.</p>
+
+        <!-- Button to return to the main page -->
+        <button onclick="goToMainPage()">Return to Main Page</button>
+    </div>
+
+    <script>
+
+        function goToMainPage() {
+            window.location.href = "index.html"; 
+        }
+    </script>
+</body>
+</html>
